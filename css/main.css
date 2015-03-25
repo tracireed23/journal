@@ -1,10 +1,18 @@
-
 html {
     color: #660033;
-    background-color: #000000;
+    background-color: #867E7E;
     font-family: MV Boli;
     font-size: 1em;
     line-height: 1.4;
+}
+
+.myinfo {
+  text-align: right;
+  margin-right: 5%;
+}
+
+.entrylinks {
+  padding-left: 60px;
 }
 
 a {
@@ -12,25 +20,50 @@ a {
 }
 ul {
   color: white;
+  list-style-type: none;
 
 }
 h1 {
+  text-align: center;
   border-style: solid;
+  margin-right: 20%;
+  margin-left: 20%;
 }
+
+.copyandpaste {
+  padding-right: 10px;
+  padding-left: 60px;
+}
+
 h2 {
   color: white;
+  text-decoration: underline;
+  text-align: center;
+
 }
+
+h3 {
+  text-align: center;
+}
+
 nav {
     float: left;
-    wide: 30%;
+    width: 22%;
+ 
+}
 
+.journalentries {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+.halfwaythrough {
+  width: 80%;
+  margin-left: 19%;
+}
 
-
-
-section {
-  float: left;
-  wide: 70%;
-
+footer {
+  text-align: center;
+  
 
 }
