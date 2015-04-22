@@ -1,18 +1,23 @@
 html {
-    color: #660033;
-    background-color: #867E7E;
-    font-family: MV Boli;
+    color: #fff;
+    background-color: #000;
+    font-family: Chalkduster;
     font-size: 1em;
+    font-weight: 100;
     line-height: 1.4;
+    text-align: center;
 }
 
 .myinfo {
   text-align: right;
   margin-right: 5%;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .entrylinks {
   padding-left: 60px;
+  text-align: left;
 }
 
 a {
@@ -24,8 +29,8 @@ ul {
 
 }
 h1 {
-  text-align: center;
-  border-style: solid;
+  border-style: dashed;
+  box-shadow: 5px 5px white;
   margin-right: 20%;
   margin-left: 20%;
 }
@@ -38,32 +43,24 @@ h1 {
 h2 {
   color: white;
   text-decoration: underline;
-  text-align: center;
+  margin-bottom: 5px;
 
 }
 
 h3 {
-  text-align: center;
+  margin-top: 5px;
 }
 
 nav {
     float: left;
     width: 22%;
+    position: fixed;
  
 }
 
 .journalentries {
   padding-left: 5%;
   padding-right: 5%;
+  margin-left: 20%;
 }
 
-.halfwaythrough {
-  width: 80%;
-  margin-left: 19%;
-}
-
-footer {
-  text-align: center;
-  
-
-}
